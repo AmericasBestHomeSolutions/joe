@@ -13,10 +13,11 @@
 <meta property="og:description" content="Every family deserves a door they own. I help hardworking families become homeowners, even after a bank has told them no."/>
 <meta property="og:url" content="https://iamjoehernandez.com/"/>
 <meta property="og:site_name" content="Joe Hernandez"/>
-<!-- TODO(joe): add og:image once joe.jpg exists (e.g. https://iamjoehernandez.com/joe.jpg) -->
-<meta name="twitter:card" content="summary"/>
+<meta property="og:image" content="https://iamjoehernandez.com/og-image.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://iamjoehernandez.com/og-image.jpg"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Joe Hernandez","jobTitle":"Executive Director","worksFor":{"@type":"Organization","name":"Americas Best Home Solutions","url":"https://americasbesthomesolutions.com"},"url":"https://iamjoehernandez.com/","sameAs":["https://www.linkedin.com/in/joseph-hernandez-9511958"]}
+{"@context":"https://schema.org","@type":"Person","name":"Joe Hernandez","jobTitle":"Executive Director","worksFor":{"@type":"Organization","name":"Americas Best Home Solutions","url":"https://americasbesthomesolutions.com"},"url":"https://iamjoehernandez.com/","email":"admin@americasbesthomesolutions.com","sameAs":["https://www.linkedin.com/in/joseph-hernandez-9511958"]}
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,6 +66,7 @@ p+p{margin-top:16px}
 .cta{text-align:center}
 .cta p{max-width:30em;margin:0 auto 26px}
 .contact a.tel{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:30px;text-decoration:none}
+.contact a.tel.mail{font-size:clamp(15px,4.6vw,22px);overflow-wrap:anywhere}
 footer{background:var(--navy-deep);color:#aebbd6;padding:34px 0 44px;font-size:14px;line-height:1.6}
 footer a{color:#fff}
 @media(min-width:640px){.hero{padding:44px 0 80px}section{padding:72px 0}}
@@ -83,9 +85,7 @@ footer a{color:#fff}
       </svg>
       Joe Hernandez
     </div>
-    <!-- TODO(joe): headshot (download your LinkedIn photo, save as joe.jpg), then replace this div with:
-         <img class="photo" src="joe.jpg" alt="Joe Hernandez" width="132" height="132" style="object-fit:cover;border-style:solid"> -->
-    <div class="photo" role="img" aria-label="Headshot placeholder">Headshot<br>coming soon</div>
+    <img class="photo" src="joe.jpg" alt="Joe Hernandez" width="132" height="132" style="object-fit:cover;border-style:solid">
     <h1>Every family deserves a door they own.</h1>
     <p class="sub">I'm Joe Hernandez. I help hardworking families become homeowners, even after a bank has told them no.</p>
     <div class="actions">
@@ -177,7 +177,7 @@ footer a{color:#fff}
     <span class="eyebrow">Contact</span>
     <h2>Talk to a person.</h2>
     <p><a class="tel" href="tel:+15515509906">(551) 550-9906</a></p>
-    <!-- TODO(joe): email. LinkedIn flagged an email that bounces; confirm which address works before publishing one. -->
+    <p><a class="tel mail" href="mailto:admin@americasbesthomesolutions.com">admin@americasbesthomesolutions.com</a></p>
   </div>
 </section>
 </main>
